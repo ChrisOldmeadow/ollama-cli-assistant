@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+cmdgen/__init__.py
+cmdgen/cli.py
+cmdgen/ollama_client.py
+cmdgen/utils.py
+cmdgen.egg-info/PKG-INFO
+cmdgen.egg-info/SOURCES.txt
+cmdgen.egg-info/dependency_links.txt
+cmdgen.egg-info/entry_points.txt
+cmdgen.egg-info/top_level.txt
+tests/test_cli.py

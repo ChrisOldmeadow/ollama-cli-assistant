@@ -1,6 +1,7 @@
 import subprocess
 
-def query_ollama(prompt):
+def query_ollama(prompt: str) -> str:
+    """Send a prompt to the Ollama model and return its response."""
     result = subprocess.run(
         ["ollama", "run", "llama3"],
         input=prompt.encode("utf-8"),

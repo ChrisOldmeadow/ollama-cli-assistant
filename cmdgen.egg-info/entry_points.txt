@@ -1,0 +1,2 @@
+[console_scripts]
+cmdgen = cmdgen.cli:main
