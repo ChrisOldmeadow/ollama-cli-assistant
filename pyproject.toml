@@ -1,0 +1,11 @@
+[project]
+name = "cmdgen"
+version = "0.1.0"
+description = "Local Linux command-line assistant using Ollama"
+authors = [{ name="Your Name", email="your@email.com" }]
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+cmdgen = "cmdgen.cli:main"
